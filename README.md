@@ -40,7 +40,7 @@ The following libraries and tools are required for this project:
     ```sh
     jupyter notebook
     ```
-
-2. Open `models.ipynb` in the Jupyter interface.
-
-3. Run the cells in the notebook to see the analysis and results.
+2. Download the Dataset from https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud.
+3. Open `models.ipynb` in the Jupyter interface.
+4. Update the file path in the notebook at line 11 in data = pd.read_csv(*path*)
+5. Run the cells in the notebook to see the analysis and results.
